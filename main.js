@@ -14,7 +14,7 @@ function generateMenuHtml(children, hierarchy) {
             _html += `<span style="margin-left: ${hierarchy * 30}px; border-bottom: 2px solid black">${element.label}</span><br/>`
         }
 
-        if (element.children) {
+        if (element.children && element.children instanceof Array && element.children.length > 0) {
             _html += generateMenuHtml(element.children, hierarchy + 1)
         }
     });
