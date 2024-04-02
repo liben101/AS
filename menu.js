@@ -17,6 +17,11 @@ export const menuList = [
                 label: '龙鑫MES质量/检化验模块设计期望',
                 path: './assets/龙鑫MES/质量模块/检化验模块设计期望/质量检化验管理.pdf'
             },
+            {
+                label: '龙鑫MES物料管理模块',
+                path: './assets/龙鑫MES/物料管理/物料管理.pdf'
+            },
+
         ]
     }
 
